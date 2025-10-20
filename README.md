@@ -11,7 +11,7 @@ make sure you know that the checker is labeled 0-7 for both col and rows
 
 Player 1 pieces will be located at the bottom of the board and player 2 pieces will be at the top
 
-player 1 starts off first with their input then it will aske player 2 for input (make sure the input for player 2 is moving downward diagonally because if not you will be asked again until there is a valid input from the player)
+player 1 starts off first with their input then it will ask player 2 for input (make sure the input for player 2 is moving downward diagonally because if not you will be asked again until there is a valid input from the player)
 
 However, when it is one of the player's turn and it is determined that the current player's turn is able to make another jump then the player will need to continue to make the jump until it is determined that they are no longer able to make another jump
 
