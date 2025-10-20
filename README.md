@@ -15,6 +15,8 @@ player 1 starts off first with their input then it will ask player 2 for input (
 
 However, when it is one of the player's turn and it is determined that the current player's turn is able to make another jump then the player will need to continue to make the jump until it is determined that they are no longer able to make another jump
 
+To capture the opponent's piece simply input the position where the piece will end at, meaning opponent's piece position should be located in the middle from player's to and from input, Once a player's piece has been captured it will be cleared from the board and player will have less pieces on the board
+
 To be promoted to king, player's will need to reach the opposite end from which they started from that is the only way a piece will be promoted to king
 King's are able to move back and forth 
 
