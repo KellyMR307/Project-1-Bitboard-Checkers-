@@ -21,3 +21,8 @@ To be promoted to king, player's will need to reach the opposite end from which 
 King's are able to move back and forth 
 
 game end's when a player is left with no more pieces the winner will be the player that is still left with pieces
+
+Building: 
+bitboard.c contains all the functions in order for game to work (ex: movePiece, creatBoard, printBoard etc.)
+bitboard.h is the header file that contains all functions declaration and the game board structure
+main.c is where the functions are used to make the game playable
