@@ -26,3 +26,8 @@ Building:
 bitboard.c contains all the functions in order for game to work (ex: movePiece, creatBoard, printBoard etc.)
 bitboard.h is the header file that contains all functions declaration and the game board structure
 main.c is where the functions are used to make the game playable
+
+references: 
+https://dyclassroom.com/c/c-pointers-and-structures#google_vignette
+https://www.geeksforgeeks.org/c/structure-pointer-in-c/
+
