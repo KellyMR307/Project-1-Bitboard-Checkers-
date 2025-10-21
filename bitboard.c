@@ -74,15 +74,9 @@ bool IsValidMove(GameState* game, int from, int to){
     
     //first check if the input of player from and to are in range of the board meaning it can't be less than 0 or greater than 64
     if ( from < 0 || from >= 64 || to < 0 || to >= 64){
-        printf("out of range\n");
+        //printf("out of range\n");
         return false;
     }
-
- 
-
-    //printf("Checking move from %d to %d\n", from, to);
-    //printf("From bit: %llu\n", fromBitPosition);
-    //printf("Occupied? %d\n", (game->red_pieces | game->black_pieces | game->red_kings | game->black_kings) & toBitPosition);
 
 
     //then check if it the positon where player input of to is occupied (if player is trying to move from a place that is already occupied)
